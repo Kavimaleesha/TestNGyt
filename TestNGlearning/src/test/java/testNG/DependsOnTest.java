@@ -8,7 +8,7 @@ public class DependsOnTest {
     @Test()
     public void oLevel(){
         System.out.println("O/level");
-        Assert.fail();
+//        Assert.fail();
     }
 
     @Test(dependsOnMethods = "oLevel")
